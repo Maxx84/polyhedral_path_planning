@@ -29,7 +29,9 @@
 close all; clear;
 
 % 1. What polyhedra are we dealing with?
-polyhedra = 'rhomba'; % USER: 'cube', 'dodecahedron', or 'rhomba'.
+% This code now might not work for all listed polyhedra. See changes to
+% line 12 of plotFootprint.m
+polyhedra = 'icosahedron20'; % USER: 'cube', 'dodecahedron', 'icosahedron20', or 'rhomba'.
 
 % 2. Main loop user variables:
 sLen = 2.5;           % USER: input the side length of a polyhedron 

@@ -9,7 +9,8 @@ if inNumSides(1) == 5
     polyFuncCorrection2 = 90;
 elseif inNumSides(1) == 3
     polyFuncCorrection1 = -30;
-    polyFuncCorrection2 = 30;
+    % Changed from +30 to -30 for icosahedron
+    polyFuncCorrection2 = -30;
 else
     polyFuncCorrection1 = 180;
     polyFuncCorrection2 = 180;
